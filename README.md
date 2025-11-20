@@ -1,1 +1,9 @@
 # Yang
+a = input('2,3')
+b = a.split(',')
+b1 = int(b[0])
+b2 = int(b[1])
+print(f'{b1} + {b2} = {b1+b2}')
+print(f'{b1} - {b2} = {b1-b2}')
+print(f'{b1} x {b2} = {b1*b2}')
+print(f'{b1} / {b2} = {b1/b2}')
